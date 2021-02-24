@@ -4,33 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    
     <style>
         h1 {
             color: rgb(51, 238, 34);
         }
         body{ 
-            background-color:
-            chocolate;
+            background-color: chocolate;
         }
         
         h2{
-            color:gold
+            color:gold;
+            background-color: cadetblue;
+            
         }
         
+        .silver-background {
+            background-color: silver;
+            border-style: dashed;
+            border-color: rgb(226, 114, 170);
+            border-width: 10px;
+            /*border-radius: 50px;*/
+            padding: 10px 20px 10px 10px;
+            margin: 5px 200px 50px 200px;
+
+        }
+        
+        #growth {
+            /*margin: 10px 100px 10px 100px;*/
+            font-size: 30px;
+            font-family: Courier, monospace;
+            text-align: center;
+            /*padding: 10px 10px 10px 10px;
+            border-style: dashed;*/
+            
+
+        }
+
+        #ylwBgr {
+            background-color: burlywood;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #cyrus{ 
+            color: chartreuse;
+        }
+
+        a {
+            color: hotpink;
+        }
+
+        a:link {
+            
+        }
+        
+        a:visited {
+            text-decoration: dotted;
+            color:chartreuse;
+        }
+
+        a:hover {
+            text-decoration: cornflowerblue;
+            background-color: darkgrey;
+        }
+
+        a:active {
+            color:indigo;
+        }
+
+        #ulDiv {
+            background-color:indigo;
+            color:indianred;
+            font-family: DotGothic16, monospace;
+            margin-right: 550px;
+            border-style:unset;
+            border-radius: 20px;
+            /*border-color:lightblue;*/
+            border-width:  10px;
+            padding: 10px 20px 10px 0px;
+            
+        }
+
+        #jumpTop {
+            background-color:black;
+            padding: 5px 5px 5px 5px;
+            text-align: center;
+            margin-right: 350px;
+            margin-left: 350px;
+            font-size: 15px;
+        }
     </style>
 
 
 </head>
+
 <body>
-<h1> Hello and welcome to the flipping show</h1>   
-<h2> The Persian-Greco war. As told by Herodotus</h2>
     
+<h1 id = 'top'> Hello and welcome to the flipping show</h1>   
+<h2> The Persian-Greco war. As told by Herodotus</h2>
+    <p>
+        <ul>       
+            <li><a href = '#growth'> The Persian Growth </a></li>
+            <li><a href = '#cyrus'> Cyrus the Great</a></li>
+        </ul>
+    </p>
+        <p>A list of the Achaemenid Persian Monarchs, from (553 - 330 BC)</p> 
+
+<div id = 'ulDiv'>
+    <ul>
+        <li> Cyrus </li>
+        <li>Cambyses II</li>
+        <li>Bardiya</li>
+        <li>Darius I</li>
+        <li>Artaxerxes I</li>
+        <li>Xerxes II</li>
+        <li>? (son of Artaxerxes I)</li>
+        <li>Darius II</li>
+        <li>Artaxerxes II</li>
+        <li>Artaxerxes III</li>
+        <li>Artaxrxes IV</li>
+        <li>Darius III</li>
+        <li> Artaxerxes V</li>
+    </ul>
+</div>
+<br>
+        
+
+        <h2 id ='growth'> How the Persians grew their kingdom</h2>
+        <div class = 'silver-background'>
+            <p style="color:blueviolet;"> The Persians had a great military which was made up of mostly archery units. Definitive numbers for this army are unknown and are exaggerated by Herodotus. 
+                Herodotus, the first historian and often referred to as "The Father of History" claims that the Persian army had upwards of 2 million men with so many archers that their arrows would block out the sun.
+                The number he provides is obviously the wrong number, but nobody knows what is right. Using averages of what was common at the time (~490 B.C.E) historians can guess it was around 50,000 to upwards of 200,000.
+                The average soldier could shoot about 3 arrows per minute, so 50,000 archers shooting one arrow can shoot a lot of arrows. Blocking out the sun wasn't too far out of the realm of possibility, even if for a second.
+
+            </p>
+        </div>
+
+    <h2>The Death of Cyrus</h2>
+       
+        <div id = "ylwBgr">
+            <p>
+                The details of Cyrus's death vary by account. The account of Herodotus from his Histories provides the second-longest detail, in which Cyrus met his fate in a 
+                fierce battle with the Massagetae, a tribe from the southern deserts of Khwarezm and Kyzyl Kum in the southernmost portion of the Eurasian Steppe regions of 
+                modern-day Kazakhstan and Uzbekistan, following the advice of Croesus to attack them in their own territory. 
+                The Massagetae were related to the Scythians in their dress and mode of living; they fought on horseback and on foot.
+                In order to acquire her realm, Cyrus first sent an offer of marriage to their ruler, the empress Tomyris, a proposal she rejected.
+            </p>
+        </div>
 
 
 
+    <p id = 'cyrus'>
+    <a href = "https://en.wikipedia.org/wiki/Tomb_of_Cyrus" target = "_blank"> <img src = 'https://upload.wikimedia.org/wikipedia/commons/5/51/Pasargad_Tomb_Cyrus3.jpg'  
+        alt = 'The Tomb of Cyrus the great, located in Iran.' width = "600"> <br>
+        The tomb of Cyrus The Great.</a>
+        His burial spot is located in Iran.
 
+    </p>
 
+    <form> 
+        <input type = "text" placeholder="Hello and Testing" required><button type = 'Submit'>Submit</button>
+    </form>
+<br>
+    <form>
+        <label for="indoor">
+            <input id = "Indoor" type='radio' name ='indoor-outdoor' checked>Indoor
+        </label>
+
+        <label for = 'Outdoor'>
+            <input id = 'outdoor' type = 'radio' name = 'indoor-outdoor'>Outdoor
+        </label>
+    </form>
+<br>
+    <form>
+        <label for = 'cyrus'>
+            <input id ='cyrus' value = 'cyrus' type = 'checkbox' name = 'monarch' checked> Cyrus
+        </label>
+<br>        
+        <label for ='cambyses'>
+            <input id ='cambyses' value = 'cambyses' type ='checkbox' name = 'monarch'> Cambyses
+        </label>
+<br>
+        <label for = 'bardiya'>
+            <input id ='bardiya' value = 'bardiya' type = 'checkbox' name = 'monarch'> Bardiya
+        </label>
+<br>
+        <label for = 'darius'>
+            <input id = 'darius' value = 'darius' type = 'checkbox' name = 'monarch'> Darius I
+        </label>
+<br>
+        <label for = 'xerxes'>
+            <input id ='xerxes' value='xerxes' type = 'checkbox' name = 'monarch'> Xerxes II
+        </label>
+    </form>
+
+    <p id = 'jumpTop'><a href = '#top'>Jump to top</a></p>
 
 
 
