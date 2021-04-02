@@ -1,22 +1,35 @@
 
+/* I used a lot of Bootstrap Utility Classes and flexbox through bootstrap to
+ align the page.  */
+
 body{
-    /* background-color: green; */
     background-color: royalblue;
     color: whitesmoke;
+    
+    /* This padding-top is required, otherwise the top row of the  content 
+    (custom chairs crafted etc...) will be covered by the nav bar */
     padding-top:101px;
 }
+
+/* This helps me identify where my cols are and how much space they take up.
+Will NOT be in final product */
 .my-col {
     border: 2px solid red;
 }
 
-
+/* This helps me identify where my rows are and how much space they take up.
+Will NOT be in final product */
 .my-row{
     border:2px dashed black;
 }
+
+/* This is used to change the background color of the fixed nav bar. */
 .navbar-custom{
      background-color: darkslategray; 
 }
 
+/* This price-col is only for testing purposes, this will be deleted by the 
+final draft */
 .price-col{
     height:300px;
     margin-bottom:400px;
@@ -26,14 +39,19 @@ body{
     background-color: darkcyan;
 }
 
+/* This is how I tried to originally align the text under the email input.
+This was to push the whole row to the left, but it did not work. */
 .row-mar {
     /* margin-right: 100px; */
 }
 
+/* This is the border for the 3 pricing cards at the bottom */
 .price-1{
-    border:2px solid black;
+    border:1px solid black;
 }
 
+/* This adds a stripe of color to the price cards at the bottom. background-color and
+text color TBD */
 #product {
     background-color: white;
     color: teal;
