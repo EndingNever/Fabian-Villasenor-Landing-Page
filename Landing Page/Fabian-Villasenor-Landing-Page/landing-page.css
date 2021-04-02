@@ -1,0 +1,40 @@
+
+body{
+    /* background-color: green; */
+    background-color: royalblue;
+    color: whitesmoke;
+    padding-top:101px;
+}
+.my-col {
+    border: 2px solid red;
+}
+
+
+.my-row{
+    border:2px dashed black;
+}
+.navbar-custom{
+     background-color: darkslategray; 
+}
+
+.price-col{
+    height:300px;
+    margin-bottom:400px;
+}
+
+.footer-row{
+    background-color: darkcyan;
+}
+
+.row-mar {
+    /* margin-right: 100px; */
+}
+
+.price-1{
+    border:2px solid black;
+}
+
+#product {
+    background-color: white;
+    color: teal;
+}

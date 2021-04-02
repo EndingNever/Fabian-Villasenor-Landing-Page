@@ -1,0 +1,73 @@
+/* Black background holding container and text*/
+/* Controlling where the whole container goes */
+.wrapper {
+    color:whitesmoke;
+    background-color: black;
+    max-width:1300px;
+    margin:auto;
+    height: 500px;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 20px 0px;
+    display:flex;
+
+    justify-content: center;
+    
+    /* Why does align-content not move both boxes to the center, but align-items does? */
+    /*  
+        ANSWER: ALIGN-CONTENT CAN BE USED ONLY WHEN THE PAGE IS SET TO WRAP, USING EITHER FLEX-WRAP OR FLEX-FLOW(shorthand for flex-direction and flex-wrap example is )
+     */
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+    
+    
+    
+    
+    /* margin: 40px auto 0 auto; */
+}
+
+
+/* Box containing text */
+h1, p {
+    border:2px solid peru
+}
+
+
+/* Container hosting the Text within */
+.container {
+   
+    /* Border and background color of container for text */
+    border: 3px solid  #fff;
+    background-color: cadetblue;
+
+    /* Dimensions of the box containing text */
+    
+    height:150px;
+
+    /* FLEX PROPERTIES */
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    
+    
+
+
+    /* flex-direction:column; */
+    /* flex-basis:100% */
+}
+
+.rect {
+    flex-basis:100%;
+    min-height:200px;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    border:3px solid red;
+    align-items:center;
+    
+    /* flex-wrap: wrap; */
+    /* margin:auto; */
+    
+
+}
+
