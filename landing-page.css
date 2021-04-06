@@ -5,12 +5,15 @@
 body{
     background-color: #0B486B;
     color: #CFF09E;
-    
+    font-family: 'Raleway', sans-serif;
     /* This padding-top is required, otherwise the top row of the  content 
     (custom chairs crafted etc...) will be covered by the nav bar */
     padding-top:101px;
 }
 
+html {
+    font-size: 1rem;
+  }
 /* This helps me identify where my cols are and how much space they take up.
 Will NOT be in final product */
 .my-col {
@@ -54,33 +57,53 @@ This was to push the whole row to the left, but it did not work. */
 /* This adds a stripe of color to the price cards at the bottom. background-color and
 text color TBD */
 #product {
-    background-color: white;
-    color: teal;
+    background-color: rgba(255, 255, 255, 0.815);
+    color: #0b486b;
 }
 
-html {
-    font-size: 1rem;
-  }
-
+/* Copyright class changes the font size of the footer containing copyright info */
   .copyright {
     font-size: 12px;
 }
-.my-anchor{
-    padding-top: 50px;
-    margin-top: -40px;
+/* Copyright-row changes the background to the copyright footer */
+.copyright-row {
+    background-color: white;
 }
 
+
+/* This changes the text and border color of all buttons, overriding bootstrap  */
 .btn-outline-warning{
     border-color: #A8DBA8;
     color:#A8DBA8;
+    box-shadow: 4px -3px 4px teal;
 }
 
-.btn:hover{
-    background-color:#97e597 !important;
-    border-color: #97e597 !important;
-    box-shadow:2px 3px 3px black;
-    color:aliceblue ;
+.btn-outline-warning:focus{
+    border-color: #A8DBA8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5);
 }
+
+/* Btn hover overrides bootstrap to changes the background, border, and text color of the buttons when hovering*/
+.btn:hover{
+    background-color:#97e597 ;
+    border-color: #97e597 ;
+    color:rgba(0, 0, 0, 0.623);
+    outline: 0;
+}
+
+/* Changes button characteristics after the button is clicked */
+.btn:active{
+    background-color:#97e59788 ;
+    border-color: #97e5976c ;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn:focus{
+    border:2px solid #97e59793;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+
 
 /* .btn-outline-warning:active:focus{
     background-color: red;
@@ -103,3 +126,13 @@ html {
     border-radius: none;
     box-shadow: none;
 } */
+
+input[type = email], input[type = email]:focus {
+    background-color: inherit;
+    border-color: #97e597;
+    color:#97e597;
+}
+input[type = email]:active{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5);
+    border-color: #97e5976c;
+}
