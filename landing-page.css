@@ -3,8 +3,8 @@
  align the page.  */
 
 body{
-    background-color: royalblue;
-    color: whitesmoke;
+    background-color: #0B486B;
+    color: #CFF09E;
     
     /* This padding-top is required, otherwise the top row of the  content 
     (custom chairs crafted etc...) will be covered by the nav bar */
@@ -25,18 +25,19 @@ Will NOT be in final product */
 
 /* This is used to change the background color of the fixed nav bar. */
 .navbar-custom{
-     background-color: darkslategray; 
+     background-color: #3B8686;
 }
 
-/* This price-col is only for testing purposes, this will be deleted by the 
-final draft */
+
+/* This price-col gives the card its height  */
 .price-col{
     height:300px;
-    margin-bottom:400px;
+    /* margin-bottom:400px; */
 }
 
 .footer-row{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
+    
 }
 
 /* This is how I tried to originally align the text under the email input.
@@ -56,3 +57,49 @@ text color TBD */
     background-color: white;
     color: teal;
 }
+
+html {
+    font-size: 1rem;
+  }
+
+  .copyright {
+    font-size: 12px;
+}
+.my-anchor{
+    padding-top: 50px;
+    margin-top: -40px;
+}
+
+.btn-outline-warning{
+    border-color: #A8DBA8;
+    color:#A8DBA8;
+}
+
+.btn:hover{
+    background-color:#97e597 !important;
+    border-color: #97e597 !important;
+    box-shadow:2px 3px 3px black;
+    color:aliceblue ;
+}
+
+/* .btn-outline-warning:active:focus{
+    background-color: red;
+    background-image: none;
+    border-color: red !important;
+    border-radius: red !important;
+    box-shadow: red;
+}
+.btn-outline-warning:active{
+    background-image: none;
+    background-color: none;
+    border-radius: none;
+    border: none;
+    border-style: none;
+} */
+/* .btn:focus, .btn:active, .btn:current{
+    outline: none;
+    box-shadow: none;
+    border:none;
+    border-radius: none;
+    box-shadow: none;
+} */
