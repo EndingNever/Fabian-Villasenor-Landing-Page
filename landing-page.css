@@ -67,7 +67,7 @@ text color TBD */
 }
 /* Copyright-row changes the background to the copyright footer */
 .copyright-row {
-    background-color: white;
+    background-color:  rgba(255, 255, 255, 0.815);
 }
 
 
@@ -103,30 +103,8 @@ text color TBD */
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.5);
 }
 
-
-
-/* .btn-outline-warning:active:focus{
-    background-color: red;
-    background-image: none;
-    border-color: red !important;
-    border-radius: red !important;
-    box-shadow: red;
-}
-.btn-outline-warning:active{
-    background-image: none;
-    background-color: none;
-    border-radius: none;
-    border: none;
-    border-style: none;
-} */
-/* .btn:focus, .btn:active, .btn:current{
-    outline: none;
-    box-shadow: none;
-    border:none;
-    border-radius: none;
-    box-shadow: none;
-} */
-
+/* This changes the email input to have the same bg-color as the page */
+/* Also adjusts the focus border*/
 input[type = email], input[type = email]:focus {
     background-color: inherit;
     border-color: #97e597;
